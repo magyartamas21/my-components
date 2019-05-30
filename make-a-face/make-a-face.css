@@ -1,0 +1,44 @@
+body {
+  background-color: #888;
+}
+
+main {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff;
+  position: relative;
+}
+
+#stickers > img {
+  height: 40px;
+}
+
+#head > img {
+  height: 200px;
+}
+
+/* Put on stickers! */
+#eyes-02 {
+  /* position: absolute; */
+  top: 80px;
+  left: 155px;
+  position: absolute;
+}
+
+#mouth-04 {
+  /* position: absolute; */
+  top: 130px;
+  left: 155px;
+  position: absolute;
+}
+
+#brow-03 {
+  /* position: absolute; */
+  top: 60px;
+  left: 150px;
+  position: absolute;
+}
+
