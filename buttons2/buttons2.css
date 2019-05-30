@@ -1,0 +1,37 @@
+/* The base of every button */
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #000;
+  padding: .8rem 1rem;
+  border: 1px solid #000;
+  color: rgba(0, 0, 0, 0.9);
+}
+/* Additional styles for "Previous" */
+.btn-previous {
+  color: #333;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.btn-previous:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+}
+/* Additional styles for "Next" */
+.btn-next {
+  color: #333;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.9);
+}
+
+.btn-next:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-color: rgba(0, 0, 0, 0.9);
+  transition: background-color .15s ease-in-out;
+}
